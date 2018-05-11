@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.5.7)  7 MAY 2018 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.5.7)  9 MAY 2018 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -857,75 +857,77 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 59.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 61.
  [2]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 86.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 86.
  [3]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 100.
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 103.
+(babel)             in language  on input line 107.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 110.
 
  (/usr/share/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 103.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 110.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 113.
+(babel)             in language  on input line 117.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 113.
+(babel)             in language  on input line 117.
 [4]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 122.
-<sunaku.png, id=97, 1041.8925pt x 726.715pt>
+(babel)             in language  on input line 129.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 132.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 132.
+ [5]
+<sunaku.png, id=107, 1041.8925pt x 726.715pt>
 File: sunaku.png Graphic file (type png)
 <use sunaku.png>
-Package pdftex.def Info: sunaku.png  used on input line 126.
+Package pdftex.def Info: sunaku.png  used on input line 133.
 (pdftex.def)             Requested size: 416.74962pt x 290.68085pt.
 
-Overfull \hbox (16.11969pt too wide) in paragraph at lines 126--127
+Overfull \hbox (16.11969pt too wide) in paragraph at lines 133--134
  [] 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 128.
-[5]
+(babel)             in language  on input line 143.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 133.
+(babel)             in language  on input line 143.
+[6 <./sunaku.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 142.
- [6 <./sunaku.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 149.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 150.
+(babel)             in language  on input line 157.
 
-Overfull \hbox (6.84323pt too wide) in paragraph at lines 154--155
+Overfull \hbox (6.84323pt too wide) in paragraph at lines 161--162
 []\T1/lmr/m/n/12 (-20) Adicione seu gmail da dac (<pri-meira le-tra do seu nome
 ><seu ra>@g.unicamp.br)
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 158.
+(babel)             in language  on input line 162.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 161.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 162.
 [7]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 161.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 163.
+(babel)             in language  on input line 165.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 176.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 178.
 
  (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -934,43 +936,47 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Overfull \hbox (7.75648pt too wide) in paragraph at lines 164--165
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 179.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 179.
+ [8]
+Overfull \hbox (7.75648pt too wide) in paragraph at lines 179--180
 []\T1/lmr/m/n/12 (-20) Introdução a re-po-si-tó-rios do github: []$\T1/lmtt/m/n
 /12 https : / / guides . github . com / activities /
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 186.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 171.
-[8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
+(babel)             in language  on input line 186.
+[9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
  (./git.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `git.out' has not changed.
-(rerunfilecheck)             Checksum: CFB3C7B42C194A64C0DDE1C5AE302916;694.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
+(rerunfilecheck)             Checksum: D27897B85C5E162009A02998E71B55E9;769.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
  ) 
 Here is how much of TeX's memory you used:
- 10308 strings out of 492982
- 158517 string characters out of 6138580
+ 10319 strings out of 492982
+ 158626 string characters out of 6138580
  398108 words of memory out of 5000000
- 13635 multiletter control sequences out of 15000+600000
- 40566 words of font info for 58 fonts, out of 8000000 for 9000
+ 13637 multiletter control sequences out of 15000+600000
+ 40748 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,5n,38p,599b,594s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,5n,38p,599b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
 nts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmb
 x12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texm
 f-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/publ
 ic/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on git.pdf (8 pages, 197601 bytes).
+Output written on git.pdf (9 pages, 203602 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 11870 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 171 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 11878 words of extra memory for PDF output out of 12000 (max. 10000000)
 

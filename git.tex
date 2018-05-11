@@ -56,44 +56,51 @@ branch: é uma ramificação do seu projeto, você pode criar ramos, trocar o br
 \end{enumerate}
 
 \section{Fluxo comum de uso de git}
+\subsection{Primeira vez que for usar}
+O git usa seu nome e email para manter informações de quem está dando commits em algum projeto. Por isso, a primeira vez que você for usar git em uma conta nova do seu computador (ou na sua conta no IC, por exemplo), você vai precisar dizer quem é você e qual seu email. Apenas utilize os seguintes comandos:
+\begin{flushleft}
+\textit{\$ git config $--$global user.email <seuemail@examplo.com> \newline
+\$ git config $--$global user.name <seu lindo nome>}
+\end{flushleft}
+
 \subsection{Lista de comandos}
 \label{comandos}
 \begin{enumerate}
 
 \item{Criamos um repositório git \newline
-\$ git init
+\textit{\$ git init}
 }  
 \item{Adicionamos um repositório remoto (origin) \newline
-\$ git remote add origin <url do repositório remoto>
+\textit{\$ git remote add origin <url do repositório remoto>}
 }
 
 \item{Copiamos o que existe na origin \newline
-\$ git pull origin <nome do branch, normalmente usamos o master> 
+\textit{\$ git pull origin <nome do branch, normalmente usamos o master> }
 }
 \item{Adicionamos arquivos ao git \newline
-\$ git add <nome dos arquivos ou diretórios>
+\textit{\$ git add <nome dos arquivos ou diretórios>}
 }
 \item{Utilizamos commit para efetivar as últimas mudanças (como salvar um checkpoint) \newline
-\$ git commit -m “ Sua mensagem de commit aqui ”
+\textit{\$ git commit -m “ Sua mensagem de commit aqui ”}
 }
 \item{Mantemos uma visão do estado atual do repositório \newline
-\$ git status
+\textit{\$ git status}
 }
 \item{Criamos eventuais branches (ramos) \newline
-\$ git branch <nome do branch>
+\textit{\$ git branch <nome do branch>}
 }
 \item{Alteramos o branch que estamos modificando (como dar load em um checkpoint). \newline
-	\$ git checkout <nome do branch>  
+	\textit{\$ git checkout <nome do branch>  }
 }
 \item{Mantemos uma visão do estado da nossa árvore de commits e branches \newline
-\$ git log
+\textit{\$ git log}
 }
 \item{Efetuamos merges dos branches com nosso master \newline
-	\$ git checkout <branch que você quer manter, normalmente o master> \newline
-    \$ git merge <nome do branch que você está dando merge>
+	\textit{\$ git checkout <branch que você quer manter, normalmente o master> \newline
+    \$ git merge <nome do branch que você está dando merge>}
 }
 \item{Atualizamos nossa origin com as mudanças \newline
-	\$ git push origin master
+	\textit{\$ git push origin master}
 }
 \end{enumerate}
 
@@ -134,14 +141,14 @@ Quando mudamos de branch podemos modificar e adicionar os arquivos igualmente ao
 
 Tá tudo bem, você pode sobrescrever as alterações locais do seu repositório:
 \begin{flushleft}
-		\$ git checkout $--$ <nome do arquivo que você quer resetar>
+		\textit{\$ git checkout $--$ <nome do arquivo que você quer resetar>}
 \end{flushleft}
 Isso vai resetar as modificações do arquivo para como ele estava no último commit do branch atual. É por isso que é MUITO IMPORTANTE manter o costume de dar commits organizados e com código minimamente testado.
  
 Se deu muita merda mesmo e você quer resetar o repositório local e recomeçar de onde você parou na origin, você pode fazer isso: 
 \begin{flushleft}
-\$ git fetch origin \newline
-\$ git reset $--$hard origin/master
+\textit{\$ git fetch origin \newline
+\$ git reset $--$hard origin/master}
 \end{flushleft}
 
 Isso vai buscar a última versão do repositório remoto origin e depois mandar o git resetar tudo do repositório local para o estado atual da origin. Por isso que é AINDA MAIS IMPORTANTE ser cuidadoso com os pushs para a origin.
@@ -156,7 +163,15 @@ O Github é lindo, mas em contas FREE ele não permite que você faça repositó
 \end{itemize}
 
 \subsection{Instruções gerais do Github}
-Mantenha um README um LICENÇA nos repositórios do github, você nunca sabe se alguém está interessado no seu código
+\begin{itemize}
+\item Mantenha um README um LICENÇA nos repositórios do github, você nunca sabe se alguém está interessado no seu código
+\item Para criar um repositório remoto para um repositório local (ou seja, criar uma origin pro seu repositório local):
+	\begin{enumerate}
+	\item	 Siga as instruções do próprio Github para criar um novo projeto, por exemplo: \textit{repo-remoto}
+	\item O Github vai fornecer alguns jeitos de adicionar coisas no repositório. Se você já possui um repositório local, basta copiar a url do repositório remoto que você acabou de criar (com o .git no final), vai ser algo como: \textit{https://github.com/seuusuario/repo-remoto.git}
+	\item Depois, siga o passo 2 da seção \ref{comandos}
+	\end{enumerate}
+\end{itemize}
 
 \section{Links úteis}
 \begin{itemize}
